@@ -147,7 +147,7 @@ public class EnemyAI : MonoBehaviour
         frontVec = new Vector2(obj.transform.position.x + dir * 0.1f, obj.transform.position.y);
         RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1.6f, LayerMask.GetMask("Platform"));
 
-        if (rayHit.collider == true && rayHit_side == false) // ���� ���������� �ƴϸ� ���� ���ٸ�
+        if (rayHit == true && rayHit_side == false) // ���� ���������� �ƴϸ� ���� ���ٸ�
         {
             obj.transform.Translate(new Vector2(dir, 0) * enemy.moveSpeed * Time.deltaTime, 0);
             // moving�� true�� �����Ͽ� Walk���·� ����
