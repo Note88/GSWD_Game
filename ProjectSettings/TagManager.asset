@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Bullet
+  - Wall
+  - Monster
+  - Player_hitbox
+  - Item
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Monster
+  - Player_hitbox
+  - Platform
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Monster
+    uniqueID: 2863355103
+    locked: 0
+  - name: bullet
+    uniqueID: 3550555893
+    locked: 0
+  - name: Player
+    uniqueID: 2739716073
+    locked: 0
+  - name: Skill
+    uniqueID: 1359622623
+    locked: 0
+  - name: item
+    uniqueID: 2839484521
+    locked: 0
