@@ -12,7 +12,6 @@ public class EnemyAI : MonoBehaviour
 
     // �������� �ٷ� ��� ���� ����
     bool check_face = true;
-    bool check_idle = false;
 
     GameObject obj;
     Enemy enemy;
