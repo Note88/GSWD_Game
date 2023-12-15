@@ -77,12 +77,6 @@ public class EnemyAI : MonoBehaviour
             Idle_Move();
 
         }
-        else
-        {
-            // Idle ���� ����
-            enemyAnimator.SetBool("moving", false);
-            Idle_Move();
-        }
     }
 
     void Think()
