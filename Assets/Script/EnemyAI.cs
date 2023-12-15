@@ -103,7 +103,9 @@ public class EnemyAI : MonoBehaviour
 
     void Idle_Move()
     {
-        obj.transform.Translate(new Vector2(nextMove, 0) * enemy.moveSpeed * Time.deltaTime, 0);
+        rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+
+        rigidbody.transform.Translate(new Vector2(nextMove, 0) * enemy.moveSpeed * Time.deltaTime, Space.World);
 
         Vector2 frontVec = new Vector2(obj.transform.position.x + nextMove * 0.1f, obj.transform.position.y);
         RaycastHit2D rayHit_down = Physics2D.Raycast(frontVec, Vector3.down, 1.6f, LayerMask.GetMask("Platform"));
